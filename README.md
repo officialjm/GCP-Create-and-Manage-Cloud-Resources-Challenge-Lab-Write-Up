@@ -13,6 +13,20 @@ Guide created by: [Joseph M](https://www.linkedin.com/in/ofcljm/)
 
 <br></br>
 
+## Task 1: Create a project Jumphost instance
+
+### The first step is to create a Jumphost instance. In the GCP Console go to Navigation Menu > Compute Engine > VM Instance.
+
+Add the following parameters for machine type, and Image type:
+-The name of instance: **nucleus-jumphost**
+- Region set as: **Default Region**
+- Zone set as: **Default Zone**
+- The machine type be: **f1-micro**
+- Using the default image type: **Debian Linux**
+
+![](/Images/VM%20instance.png)
+<br></br>
+
 ## Task 2: Create a Kubernetes service cluster
 
 ### Create the kubernetes cluster within US EAST and a private VPC (nucleus-vpc):
